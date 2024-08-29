@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+        <div id="subcontainer">
+            <div id="upper">
+                <div id="display">0</div>
+            </div>
+            <div id="lower">
+                <div id="button">
+                    <button class="button"onclick="combine(-1)">AC</button>
+                    <button class="button" onclick="combine(-2)">+/-</button>
+                    <button class="button" onclick="combine1('%')">%</button>
+                    <button class="button orange" onclick="combine1('/')">/</button>
+                    <button class="button gray" onclick="combine(7)">7</button>
+                    <button class="button gray" onclick="combine(8)">8</button>
+                    <button class="button gray" onclick="combine(9)">9</button>
+                    <button class="button orange" onclick="combine1('*')">X</button>
+                    <button class="button gray"  onclick="combine(4)">4</button>
+                    <button class="button gray" onclick="combine(5)">5</button>
+                    <button class="button gray" onclick="combine(6)">6</button>
+                    <button class="button orange" onclick="combine1('-')">-</button>
+                    <button class="button gray" onclick="combine(1)">1</button>
+                    <button class="button gray" onclick="combine(2)">2</button>
+                    <button class="button gray" onclick="combine(3)">3</button>
+                    <button class="button orange" onclick="combine1('+')">+</button>
+                    <button class="button gray" id="zero" onclick="combine(0)">0</button>
+                    <button class="button gray"  onclick="combine(-3)">.</button>                    
+                    <button class="button orange" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
