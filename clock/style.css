@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(226, 225, 227) ;
+    font-size: 5em;
+
+}
+
