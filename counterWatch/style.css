@@ -1,0 +1,28 @@
+*{
+    background: rgb(205, 192, 192) ;
+}
+
+#display{
+    display: block;
+    font-size: 10em;
+    color: azure;
+    text-align: center;
+}
+
+#but{
+    color: azure;
+    text-align: center;
+}
+
+.butt{
+    font-size: 1.5em;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.butt:hover{
+    background-color: rgb(83, 196, 196);
+}
